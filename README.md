@@ -3,7 +3,9 @@ Audio Processing Techniques like Play an Audio, Plot the Audio Signals, Merge an
 
 ### I am doing following Audio Processing Techniques :
 
-> Play an audio : listen_audio.py
+> Play an audio / Listen audio : listen_audio.py
+
+in order to run this file pass filename as argument
 
 > Plot the Audio Signals  : Audio_processing_and_cleaning.py
 
@@ -15,5 +17,9 @@ Audio Processing Techniques like Play an Audio, Plot the Audio Signals, Merge an
 
 > Silence Remove : silence_removal.py
 
+## Pre-requisites to be installed:
+Need python 3.5 or above:
+
+> pip install webrtcvad==2.0.10 wave pydub simpleaudio numpy matplotlib
 
 **Note:** Two folder are missing (audio and splitaudio), containing the audio files, was unable to upload them via Github web interface.
