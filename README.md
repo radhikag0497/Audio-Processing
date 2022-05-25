@@ -14,3 +14,6 @@ Audio Processing Techniques like Play an Audio, Plot the Audio Signals, Merge an
 > Change the Frame Rate, Channels and Sample Width : adjust_speech_parameters.py
 
 > Silence Remove : silence_removal.py
+
+
+**Note:** Two folder are missing (audio and splitaudio), containing the audio files, was unable to upload them via Github web interface.
