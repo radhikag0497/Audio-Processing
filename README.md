@@ -4,7 +4,8 @@ Audio Processing Techniques like Play an Audio, Plot the Audio Signals, Merge an
 ### I am doing following Audio Processing Techniques :
 
 > Play an audio / Listen audio : listen_audio.py
-in order to run this file pass filename as argument
+
+in order to run this script, pass filename as argument
 
 
 > Plot the Audio Signals  : Audio_processing_and_cleaning.py
@@ -13,6 +14,7 @@ in order to run this file pass filename as argument
 > Merge and Split Audio Contents : merging_audio_files.py
 
 > Slow down and Speed up the Audio — Speed Changer : speedchangeaudio.py
+
 the frame rate will be changed based on the tweak value. Normal Speed is: 1.0
 
 To Slow down Audio : tweek range below 1.0
@@ -21,6 +23,7 @@ To Speed Up Audio : tweek range above 1.0
 
 
 > **Change the Frame Rate, Channels and Sample Width** : adjust_speech_parameters.py
+
 Set Frame rate 8KHz as 8000, 16KHz as 16000, 44KHz as 44000
 
 Set Channel : 1 is Mono and 2 is Stereo
@@ -37,8 +40,10 @@ Set Sample Width
 
 
 > **Silence Remove** : silence_removal.py
+
 To run this script: python silenceremove.py ‘aggressiveness’ <inputfile.wav> [aggressiveness mode is an integer between 0 and 3]
 (For Eg. python silenceremove.py 3 audio.wav)
+
 Here Silence Removal is done using VAD Algorithm.
 Audio file will be converted to frames and will apply Sliding Window Technique on each set of frames to check VAD. 
 Voiced frames will be collected in separate list and non-voiced will be removed. 
